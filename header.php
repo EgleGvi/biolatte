@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -12,25 +11,71 @@
 </head>
 <body>
 <header>
-    <div class="bg-wrapper">
+    <div class="background-cover">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <span class="menu">
-                        <img class="first-menu" src="img/shadow.png">
+                    <div class="shadow1">
                         <ul>
-                            <li><a>Login</a></li>
-                            <li><a>Register</a></li>
-                            <li><a>Facebook</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Cart</a></li>
                         </ul>
-                    </span>
-                    
+                    </div>
+                    <div class="slider2">
+                        <div class="logo1">
+                            <img src="img/logo.png">
+                        </div>
+                        <div class="list1">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Store locator</a></li>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">How to Purchase</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="shop">
+                    <span class="shop-med"><img src="img/med.png"></span>
+                    <h4>Lorem ipsum dolor</h4>
+                    <p>33,60&euro;</p>
+                    <p>26,88&euro;</p>
+                    <a class="first" href="#">Add to cart</a>
+                </div>
+                <div class="shop">
+                    <span class="shop-med"><img src="img/med.png"></span>
+                    <h4>Lorem ipsum dolor</h4>
+                    <p>22,40&euro;</p>
+                    <p>17,92&euro;</p>
+                    <a class="sec" href="#">Add to cart</a>
+                </div>
+                <div class="shop">
+                    <span><img src="img/med.png"></span>
+                    <h4>Lorem ipsum dolor</h4>
+                    <p>43,70&euro;</p>
+                    <p>34,96&euro;</p>
+                    <a href="#">Add to cart</a>
+                </div>
+                <div class="shop">
+                    <span class="shop-med"><img src="img/med.png"></span>
+                    <h4>Lorem ipsum dolor</h4>
+                    <p>50,40&euro;</p>
+                    <p>40,35&euro;</p>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </header>
 
     
