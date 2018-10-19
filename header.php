@@ -42,40 +42,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="shop">
-                    <span class="shop-med"><img src="img/med.png"></span>
-                    <h4>Lorem ipsum dolor</h4>
-                    <p>33,60&euro;</p>
-                    <p>26,88&euro;</p>
-                    <a class="first" href="#">Add to cart</a>
-                </div>
-                <div class="shop">
-                    <span class="shop-med"><img src="img/med.png"></span>
-                    <h4>Lorem ipsum dolor</h4>
-                    <p>22,40&euro;</p>
-                    <p>17,92&euro;</p>
-                    <a class="sec" href="#">Add to cart</a>
-                </div>
-                <div class="shop">
-                    <span><img src="img/med.png"></span>
-                    <h4>Lorem ipsum dolor</h4>
-                    <p>43,70&euro;</p>
-                    <p>34,96&euro;</p>
-                    <a href="#">Add to cart</a>
-                </div>
-                <div class="shop">
-                    <span class="shop-med"><img src="img/med.png"></span>
-                    <h4>Lorem ipsum dolor</h4>
-                    <p>50,40&euro;</p>
-                    <p>40,35&euro;</p>
-                    <a href="#">Add to cart</a>
-                </div>
-            </div>
-        </div>
-    </div>
+
 </header>
 
     

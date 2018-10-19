@@ -99,3 +99,74 @@
     padding: 10px 15px;
 }
 
+.green-bg {
+    background-color: #c3e25a;
+}
+
+.vit {
+    float: left;
+    width: 250px;
+    heigth: 150px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid white;
+}
+
+.apple-bg {
+    background-image: url(../img/book-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.del-background {
+    background-image: url(../img/del-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+}
+
+.wrapper {
+    float: left;
+    padding: 60px;
+    margin: 30px;
+    position: relative;
+}
+
+.vl {
+    border-right: 2px solid black;
+    height: 140px;
+    position: absolute;
+    top: 90px;
+    right: 380px;
+
+}
+
+.vl2 {
+    border-right: 2px solid black;
+    height: 140px;
+    position: absolute;
+    top: 90px;
+    right: 760px;
+}
+
+.fb-page img {
+    width: 100%;
+    height: 350px;
+}
+
+.fb-wrapper {
+    padding-top: 40px;
+}
+
+.fb-page h4 {
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+
