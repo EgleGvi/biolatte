@@ -144,7 +144,6 @@
     position: absolute;
     top: 90px;
     right: 380px;
-
 }
 
 .vl2 {
@@ -169,4 +168,45 @@
     padding-left: 10px;
 }
 
+.footer-wrapper {
+    background-color: #222222;
+}
 
+.name {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nov, .name2 {
+    color: #228105;
+}
+
+.name2 {
+    font-size: 20px;
+}
+
+.text {
+    color: white;
+}
+
+.more {
+    color: #248804;
+    font-size: 12px;
+}
+
+.more:hover {
+    color: #248804;
+    text-decoration: none;
+}
+
+.name2, .text, .more {
+    margin: 0px;
+    padding: 2px;
+}
+
+.wrapper-green {
+    margin-bottom: 25px;
+}
