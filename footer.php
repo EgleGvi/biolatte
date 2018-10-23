@@ -29,6 +29,11 @@
                 <br>
                 <i class="fas fa-envelope"></i>
                 <span class="house mail">info@biolatte.ee</span>
+                <h5 class="name">Lorem ipsum</h5>
+                <form action="/action_page.php">
+                    <input class="footer-input" type="text" name="email" placeholder="user@example.com">
+                    <a href="#"><i class="fas fa-envelope footer-icon"></i></a>
+                </form>
             </div>
             <div class="col-md-1"></div>
         </div>

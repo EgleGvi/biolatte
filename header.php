@@ -21,7 +21,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="content-padding-right">
-                                <a href="#" class="cart-shop">Cart</a>
+                                <a href="#" class="cart-shop"><img class="cart-shop-img" src="img/cart.png">Cart</a>
                                 <ul class="subheader-menu">
                                     <li><a href="#">Login</a></li>
                                     <li><a href="#">Register</a></li>
@@ -32,7 +32,6 @@
                     </div>
                 </div>
             </div>
-            <div class="main-top-stripes"></div>
         </div>
         <div class="slider-bottom">
             <div class="container">
@@ -57,9 +56,6 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="slider-block">
-        <img class="img-responsive" src="img/slider1.png" alt="" title="">
     </div>
 
 </header>
