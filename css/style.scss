@@ -13,7 +13,7 @@
 }
 
 .header-menu a:hover {
-    text-decoration: #a1a1a1;
+    text-decoration: underline;
     color: #a1a1a1;
 }
 
@@ -43,7 +43,7 @@ a.cart-shop {
 }
 
 .subheader-menu a:hover {
-    text-decoration: #a1a1a1;
+    text-decoration: underline;
     color: #a1a1a1;
 }
 
@@ -102,6 +102,7 @@ a.cart-shop {
 
 .cart-shop:hover {
    color: #a1a1a1;
+    text-decoration: underline;
 }
 
 a.cart-shop:before {
@@ -120,13 +121,37 @@ a.cart-shop:before {
     top: 0px;
     width: 100%;
     background: #ffffffb3;
+    z-index: 40;
 }
 
-.slider-block {
-    background-image: url(../img/slider1.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 600px;
+.carousel-wrapper {
+    height: 39.5rem;
+     span {
+         font-size: 50px;
+         color: white;
+     }
+}
+
+span:hover {
+
+}
+
+button.owl-prev {
+    position: absolute;
+    left: 40px;
+    top: 285px;
+}
+
+button.owl-next {
+    position: absolute;
+    right: 40px;
+    top: 285px;
+}
+
+.owl-dots {
+    position: absolute;
+    top: 600px;
+    left: 720px;
 }
 
 .shop {
@@ -147,7 +172,7 @@ a.cart-shop:before {
 
 .shop a  {
     position: absolute;
-    top: 285px;
+    top: 290px;
     left: 85px;
     background-color: #248804;
     padding: 10px 15px;
@@ -351,6 +376,11 @@ i {
     float: left;
 }
 
+.kontakt:hover {
+    text-decoration: none;
+    color: gray;
+}
+
 .footer-input {
     padding: 5px;
     width: 100%;
@@ -369,10 +399,10 @@ i {
     background-image: url(../img/banner.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 100px;
-    border-top: 2px solid white;
+    height: 85px;
+    border-top: 4px solid white;
     position: relative;
-
+    box-shadow: 0px 8px 5px grey;
 }
 
 .banner-store1, .banner-store2 {
@@ -411,3 +441,22 @@ a.banner-store1, a.banner-store2:hover {
 .wrapper-all {
     height: auto;
 }
+
+@media only screen and (max-width: 1024px){
+    .banner-wrapper {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .slider-block {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .shop-wrapper {
+
+    }
+}
+

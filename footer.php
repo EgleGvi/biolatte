@@ -47,9 +47,9 @@
             </div>
             <div class="col-md-4"></div>
             <div class="col-md-4">
-                <p class="kontakt">Avaleht</p>
-                <p class="kontakt">KKK</p>
-                <p class="kontakt">Kontakt</p>
+                <a href="#" class="kontakt">Avaleht</a>
+                <a href="#" class="kontakt">KKK</a>
+                <a href="#" class="kontakt">Kontakt</a>
             </div>
         </div>
     </div>

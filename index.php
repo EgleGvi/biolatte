@@ -1,5 +1,14 @@
 <?php include 'header.php';?>
-<div class="slider-block"></div>
+<div class="carousel-wrapper">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="owl-carousel owl-theme">
+                <div class="item"><img src="img/slider1.png"></div>
+                <div class="item"><img src="img/slider2.png"></div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="banner-wrapper">
     <div class="container">
         <div class="row">
@@ -18,33 +27,35 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="shop">
-                    <span class="shop-med"><img src="img/med.png"></span>
-                    <h4 class="top-border">Lorem ipsum dolor</h4>
-                    <p class="gray-price">33,60&euro;</p>
-                    <p class="red-price">26,88&euro;</p>
-                    <a href="#">Add to cart</a>
-                </div>
-                <div class="shop">
-                    <span class="shop-med"><img src="img/med.png"></span>
-                    <h4 class="top-border">Lorem ipsum dolor</h4>
-                    <p class="gray-price">22,40&euro;</p>
-                    <p class="red-price">17,92&euro;</p>
-                    <a href="#">Add to cart</a>
-                </div>
-                <div class="shop">
-                    <span class="shop-med"><img src="img/med.png"></span>
-                    <h4 class="top-border">Lorem ipsum dolor</h4>
-                    <p class="gray-price">43,70&euro;</p>
-                    <p class="red-price">34,96&euro;</p>
-                    <a href="#">Add to cart</a>
-                </div>
-                <div class="shop">
-                    <span class="shop-med"><img src="img/med.png"></span>
-                    <h4 class="top-border">Lorem ipsum dolor</h4>
-                    <p class="gray-price">50,40&euro;</p>
-                    <p class="red-price">40,35&euro;</p>
-                    <a href="#">Add to cart</a>
+                <div class="shop-wrapper">
+                    <div class="shop">
+                        <span class="shop-med"><img src="img/med.png"></span>
+                        <h4 class="top-border">Lorem ipsum dolor</h4>
+                        <p class="gray-price">33,60&euro;</p>
+                        <p class="red-price">26,88&euro;</p>
+                        <a href="#">Add to cart</a>
+                    </div>
+                    <div class="shop">
+                        <span class="shop-med"><img src="img/med.png"></span>
+                        <h4 class="top-border">Lorem ipsum dolor</h4>
+                        <p class="gray-price">22,40&euro;</p>
+                        <p class="red-price">17,92&euro;</p>
+                        <a href="#">Add to cart</a>
+                    </div>
+                    <div class="shop">
+                        <span class="shop-med"><img src="img/med.png"></span>
+                        <h4 class="top-border">Lorem ipsum dolor</h4>
+                        <p class="gray-price">43,70&euro;</p>
+                        <p class="red-price">34,96&euro;</p>
+                        <a href="#">Add to cart</a>
+                    </div>
+                    <div class="shop">
+                        <span class="shop-med"><img src="img/med.png"></span>
+                        <h4 class="top-border">Lorem ipsum dolor</h4>
+                        <p class="gray-price">50,40&euro;</p>
+                        <p class="red-price">40,35&euro;</p>
+                        <a href="#">Add to cart</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -151,7 +162,7 @@
             <div class="col-md-4">
                 <div class="fb-page">
                     <h4 class="bio-fb"><strong>Biolatte Facebookis</strong></h4>
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
                 </div>
             </div>
         </div>
